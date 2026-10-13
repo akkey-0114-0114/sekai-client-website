@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sekai Client | プロセカ向け自動化ツール</title>
+  <meta name="description" content="Sekai Clientはプロセカ向けの自動化ツールです。エミュレーターなしで軽量に、Windowsで動作します。ソロ・マルチ・ランクマッチの自動プレイに対応、月額1500円。">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sekai Client">
+  <meta property="og:title" content="Sekai Client | プロセカ向け自動化ツール">
+  <meta property="og:description" content="エミュレーターなしで軽量に、Windowsで動作するプロセカ向け自動化ツール。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/snow.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav aria-label="メイン">
+      <ul class="nav">
+        <li><a href="./" aria-current="page">ホーム</a></li>
+        <li><a href="promo/">販促</a></li>
+        <li>
+          <a href="https://discord.gg/DeeG8AZ2aq" target="_blank" rel="noopener">
+            Discord
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <canvas class="hero__snow" data-snow aria-hidden="true"></canvas>
+      <div class="hero__inner">
+        <h1 class="hero__title" id="hero-title">
+          <span>Sekai</span>
+          <span class="accent">Client</span>
+        </h1>
+        <p class="hero__lead">
+          <span>Sekai Clientはプロセカ向けの自動化ツールです。</span>
+          <span>エミュレーターなしで軽量に、Windowsで動作します。</span>
+        </p>
+      </div>
+      <a class="hero__cue" href="#showcase">
+        Showcase
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <section class="section" id="showcase" aria-labelledby="showcase-title">
+      <div class="wrap">
+        <div class="showcase__head">
+          <h2 class="section__title" id="showcase-title">Showcase</h2>
+          <p class="section__lead">実際に動いている様子を動画で紹介します。</p>
+        </div>
+
+        <ul class="features">
+          <li class="feature">
+            <div class="feature__media">
+              <iframe src="https://www.youtube-nocookie.com/embed/4htP92yClfg" title="ソロプレイ(スピードモード)" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="feature__body">
+              <h3 class="feature__title">ソロプレイ(スピードモード)</h3>
+              <p class="feature__text">ソロでの楽曲プレイはもちろんのこと、50秒でプレイが完了するスピードモードを搭載。</p>
+            </div>
+          </li>
+          <li class="feature">
+            <div class="feature__media">
+              <iframe src="https://www.youtube-nocookie.com/embed/vXiPzRrgQsE" title="マルチプレイ" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="feature__body">
+              <h3 class="feature__title">マルチプレイ</h3>
+              <p class="feature__text">マルチプレイでのライブも対応、ベテランルームやルーム番号指定も可能。</p>
+            </div>
+          </li>
+          <li class="feature">
+            <div class="feature__media">
+              <iframe src="https://www.youtube-nocookie.com/embed/Xn1sWz2OgKk" title="ランクマッチ" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="feature__body">
+              <h3 class="feature__title">ランクマッチ</h3>
+              <p class="feature__text">ランクマッチでのライブも対応、リアルタイムで点差が見れる機能もあり。</p>
+            </div>
+          </li>
+          <li class="feature">
+            <div class="feature__media">Coming Soon...</div>
+            <div class="feature__body">
+              <h3 class="feature__title">その他</h3>
+              <p class="feature__text">他にも様々な便利機能があります、エリア会話やストーリーを既読にしたり、Google連携でログインしたり。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="compare" aria-labelledby="compare-title">
+      <div class="wrap compare">
+        <div class="compare__head">
+          <h2 class="section__title" id="compare-title">既存ツールとの<wbr>比較</h2>
+          <p class="section__lead">改造版アプリを使う既存ツール(Modded)と、Sekai Clientの違いです。</p>
+        </div>
+
+        <div class="table-scroll">
+          <table class="compare-table">
+            <caption class="visually-hidden">既存ツール(Modded)とSekai Clientの比較</caption>
+            <thead>
+              <tr>
+                <th scope="col">項目</th>
+                <th scope="col">Modded<span class="col-sub">既存ツール</span></th>
+                <th scope="col" class="is-ours">Sekai Client</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">自動操作(周回 / ストーリー)</th><td>非対応</td><td class="is-ours">対応</td></tr>
+              <tr><th scope="row">自動精度</th><td>AP</td><td class="is-ours">AP</td></tr>
+              <tr><th scope="row">アプリ改造</th><td>あり</td><td class="is-ours">なし</td></tr>
+              <tr><th scope="row">ルート化</th><td>なし</td><td class="is-ours">なし</td></tr>
+              <tr><th scope="row">対応機種</th><td>Androidのみ</td><td class="is-ours">Windowsのみ</td></tr>
+              <tr><th scope="row">対応サーバー</th><td>不明</td><td class="is-ours">JPのみ</td></tr>
+              <tr><th scope="row">検知性</th><td>あり</td><td class="is-ours">なし</td></tr>
+              <tr><th scope="row">料金</th><td>無料</td><td class="is-ours">1500円 / 月</td></tr>
+              <tr><th scope="row">トライアル</th><td>無料</td><td class="is-ours">1日</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="requirements" aria-labelledby="requirements-title">
+      <div class="wrap buy">
+        <div>
+          <h2 class="section__title" id="requirements-title">動作要件</h2>
+          <dl class="specs">
+            <div><dt>OS</dt><dd>Windows 10以上</dd></div>
+            <div><dt>CPU</dt><dd>Core i3 第8世代以上</dd></div>
+            <div><dt>メモリ</dt><dd>4GB RAM以上</dd></div>
+          </dl>
+        </div>
+
+        <div class="purchase">
+          <h2 class="section__title" id="purchase-title">購入は<wbr>Discordから</h2>
+          <p class="section__lead">購入・トライアルの申し込み・サポートは、すべてDiscordサーバーで受け付けています。</p>
+          <p class="price">
+            <span class="price__value">1500円</span>
+            <span class="price__unit">/ 月</span>
+          </p>
+          <ul class="purchase__notes">
+            <li><strong>支払い方法:</strong> コンビニ払い、PayPay払い</li>
+            <li><strong>トライアル:</strong> 1日</li>
+          </ul>
+          <a class="btn btn--primary" href="https://discord.gg/DeeG8AZ2aq" target="_blank" rel="noopener">
+            Discordで購入する
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Sekai Client</p>
+      <p>非公式のツールです。株式会社セガ、株式会社Colorful Paletteとは関係ありません。</p>
+    </div>
+  </footer>
+</body>
+</html>
